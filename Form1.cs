@@ -10,6 +10,14 @@ namespace Human_Resource_MS
             InitializeComponent();
         }
 
+<<<<<<< HEAD
+=======
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
         private void loginbtn_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=LAPTOP-NFU692OK\\LOCALDB;Initial Catalog=dblogin;Persist Security Info=True;User ID=sa;Password=p@ssw0rd;Encrypt=True;Trust Server Certificate=True");
@@ -19,9 +27,13 @@ namespace Human_Resource_MS
             da.Fill(dt);
             if (dt.Rows.Count > 0)
             {
+<<<<<<< HEAD
                 this.Hide();
                 HopePage homePage = new HopePage(); 
                 homePage.Show();
+=======
+                MessageBox.Show("Login Success", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
             }
             else
             {
@@ -41,10 +53,17 @@ namespace Human_Resource_MS
 
         private void loginll_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+<<<<<<< HEAD
             this.Hide();
             Forgotpassword forget = new Forgotpassword();
             forget.Show();
         }
 
+=======
+            Forgotpassword sc = new Forgotpassword();
+            this.Hide();
+            sc.Show();
+        }
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
     }
 }

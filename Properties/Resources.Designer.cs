@@ -79,6 +79,7 @@ namespace Human_Resource_MS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -89,5 +90,7 @@ namespace Human_Resource_MS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
     }
 }

@@ -46,7 +46,10 @@
             // loginbtn
             // 
             loginbtn.BackColor = SystemColors.MenuHighlight;
+<<<<<<< HEAD
             loginbtn.Cursor = Cursors.Hand;
+=======
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
             loginbtn.FlatStyle = FlatStyle.Popup;
             loginbtn.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             loginbtn.ForeColor = Color.White;
@@ -111,9 +114,15 @@
             label3.ForeColor = Color.Blue;
             label3.Location = new Point(67, 23);
             label3.Name = "label3";
+<<<<<<< HEAD
             label3.Size = new Size(305, 25);
             label3.TabIndex = 16;
             label3.Text = "Human Resources Management System";
+=======
+            label3.Size = new Size(298, 25);
+            label3.TabIndex = 16;
+            label3.Text = "Human Resource Management System";
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
             label3.UseCompatibleTextRendering = true;
             // 
             // passwordtxt
@@ -158,7 +167,10 @@
             // cancelbtn
             // 
             cancelbtn.BackColor = SystemColors.MenuHighlight;
+<<<<<<< HEAD
             cancelbtn.Cursor = Cursors.Hand;
+=======
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
             cancelbtn.FlatStyle = FlatStyle.Popup;
             cancelbtn.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             cancelbtn.ForeColor = Color.Transparent;
@@ -191,9 +203,13 @@
             Controls.Add(cancelbtn);
             Controls.Add(loginpb);
             Controls.Add(groupBox1);
+<<<<<<< HEAD
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
+=======
+            Name = "Form1";
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
             Text = "Login";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

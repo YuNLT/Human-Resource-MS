@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿HUMAN RESOURCE MANAGEMENT SYATEM 
+=======
+HUMAN RESOURCE MANAGEMENT SYATEM 
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
     Copyright (C) <2024>  <Yu Nilar Thinn>
 
     This program is free software: you can redistribute it and/or modify
@@ -16,4 +20,8 @@
 
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
+<<<<<<< HEAD
     under certain conditions; type `show c' for details.
+=======
+    under certain conditions; type `show c' for details.
+>>>>>>> 2adca6f05eda8829eacf3a13eecb1414628bd47d
