@@ -36,8 +36,8 @@ namespace Human_Resource_MS
             {
                 // Proceed with sending email
                 string to = emailtxt.Text;
-                string from = "yunilarthinn@gmail.com";
-                string pass = "pqcieuouzybdiciz"; // Your app-specific password
+                string from = "yourmail@gmail.com";
+                string pass = "TFApassword"; // Your app-specific password
                 randomCode = GenerateVerificationCode(); // Replace with your code generation logic
                 string messageBody = $"Your verification code for Human Resources Management Program is {randomCode}";
 
